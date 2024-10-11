@@ -7,7 +7,7 @@ import useAuthStore from '../zustand/auth-store';
 const UserLayout = () => {
   const user = useAuthStore((state) => state.user);
 
-  console.log('user jaa', user);
+  // console.log('user jaa', user);
 
   return (
     <div>
